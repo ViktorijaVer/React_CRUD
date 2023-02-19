@@ -1,12 +1,24 @@
 import React from 'react';
-import { Box, Typography } from '@mui/material'
+import { Box } from '@mui/material';
+import ApiService from 'services/api-service';
 
-const HomePage = () => (
-  <Box sx={{ textAlign: 'center' }}>
-    <Typography variant="h1">React MUI typescript template.</Typography>
-    <Typography variant="h2">This content is in:</Typography>
-    <Typography variant="h3">./src/pages/home-page.tsx</Typography>
-  </Box>
-);
+const HomePage = () => {
+  const [coffee, setCoffee] = React.useState<CoffeeModel[]>([]);
+
+  React.useEffect(() => {
+    (async () => {
+      const fetchedcoffee = await ApiService.fetchCoffee();
+      setCoffee(fetchedcoffee);
+    })();
+  }, []);
+
+  return (
+    <Box>
+      <Box component="pre">
+        {JSON.stringify(coffee, null, 4)}
+      </Box>
+    </Box>
+  );
+};
 
 export default HomePage;
