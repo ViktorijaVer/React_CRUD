@@ -10,9 +10,9 @@ const api = axios.create({
 });
 
 const fetchCoffee = async () => {
-  const { data: fetchedcaffee } = await api.get<>('/coffee');
+  const { data: fetchedcoffee } = await api.get<CoffeeModel[]>('/coffee');
 
-  return fetchedcaffee;
+  return fetchedcoffee;
 };
 
 const ApiService = {
