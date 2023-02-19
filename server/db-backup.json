@@ -2,10 +2,10 @@
   "coffee": [
     {
       "id": "1",
-      "title": "Brazil Dettera Sunrise",
+      "title": "Brazil Deterra Sunrise",
       "location": {
         "country": "Brazil",
-        "height of growth": "1150 m altitude" 
+        "region": "Cerrado" 
       },
       "images": [
         "https://www.tastemap.lt/app/uploads/2016/05/011.png",
@@ -18,7 +18,7 @@
       "title": "Brazil Swiss Water Decaf",
       "location": {
         "country": "Brazil",
-        "height of growth": "1200 – 1300 m altitude" 
+        "region": "Cerrado" 
       },
       "images": [
         "https://www.tastemap.lt/app/uploads/2016/05/011-600x900.png",
@@ -31,7 +31,7 @@
       "title": "El Salvador La Majada",
       "location": {
         "country": "Salvador",
-        "height of growth": "900 – 1200 m altitude" 
+        "region": "Apaneca-Ilamatepec" 
       },
       "images": [
         "https://www.tastemap.lt/app/uploads/2019/09/022.png",
@@ -44,7 +44,7 @@
       "title": "Ethiopia Hunkute Organic",
       "location": {
         "country": "Ethiopia",
-        "height of growth": "2150 m altitude" 
+        "region": "Sidama" 
       },
       "images": [
         "https://www.tastemap.lt/app/uploads/2016/08/033-600x900.png",
@@ -57,7 +57,7 @@
       "title": "Guatemala Finca La Providencia",
       "location": {
         "country": "Guatemala",
-        "height of growth": "1200 m – 1500 m altitude" 
+        "region": "Acatenango" 
       },
       "images": [
         "https://www.tastemap.lt/app/uploads/2021/12/055-600x900.png",
@@ -70,7 +70,7 @@
       "title": "Kenya Kegwa Peaberry",
       "location": {
         "country": "Kenya",
-        "height of growth": "1500 m - 1800 m altitude" 
+        "region": "Kirinyaga" 
       },
       "images": [
         "https://www.tastemap.lt/app/uploads/2021/12/044.png",
@@ -83,7 +83,7 @@
       "title": "Mexico Monte Azul",
       "location": {
         "country": "Mexico",
-        "height of growth": "700 – 1500 m altitude" 
+        "region": "Jaltenango" 
       },
       "images": [
         "https://www.tastemap.lt/app/uploads/2018/02/mexico.png",
@@ -96,7 +96,7 @@
       "title": "Mexico El Flamingo",
       "location": {
         "country": "Mexico",
-        "height of growth": "1200 - 1400 m altitude" 
+        "region": "Jaltenango" 
       },
       "images": [
         "https://www.tastemap.lt/app/uploads/2018/02/mexico.png",
@@ -109,7 +109,7 @@
       "title": "Peru Papagayo Organic",
       "location": {
         "country": "Peru",
-        "height of growth": "1300 - 1800 m altitude" 
+        "region": "Chanchamayo" 
       },
       "images": [
         "https://www.tastemap.lt/app/uploads/2021/12/Peru-600x900.png",

@@ -4,7 +4,7 @@ id: string,
 title: string,
 location: {
 country: string,
-height of growth: string
+region: string
 },
 images: string[],
 price: string
