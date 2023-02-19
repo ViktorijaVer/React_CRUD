@@ -7,5 +7,5 @@ type CoffeeModel = {
     region: string
   },
   images: string[],
-  price: string
+  price: number
 };
