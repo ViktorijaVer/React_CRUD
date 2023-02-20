@@ -4,8 +4,9 @@ type CoffeeModel = {
   title: string,
   location: {
     country: string,
-    region: string
+    region: string,
   },
   images: string[],
-  price: number
+  price: number,
+  rating: number
 };
